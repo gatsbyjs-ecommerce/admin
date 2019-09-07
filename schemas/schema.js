@@ -12,6 +12,7 @@ import productVariant from './productVariant'
 import coupon from './coupon'
 import page from './page'
 import order from './order'
+import siteSettings from './siteSettings';
 
 import localeString from './locale/String'
 import localeText from './locale/Text'
@@ -32,6 +33,7 @@ export default createSchema({
     coupon,
     page,
     order,
+    siteSettings,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
