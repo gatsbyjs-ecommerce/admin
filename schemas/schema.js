@@ -12,6 +12,7 @@ import productVariant from './productVariant'
 import coupon from './coupon'
 import page from './page'
 import order from './order'
+import customer from './customer'
 import siteSettings from './siteSettings';
 
 import localeString from './locale/String'
@@ -33,6 +34,7 @@ export default createSchema({
     coupon,
     page,
     order,
+    customer,
     siteSettings,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas

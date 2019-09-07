@@ -18,13 +18,13 @@ export default {
       }
     },
     {
-      title: 'Default variant',
-      name: 'defaultProductVariant',
+      title: 'Variant',
+      name: 'variant',
       type: 'productVariant'
     },
     {
-      title: 'Variants',
-      name: 'variants',
+      title: 'Other Variants',
+      name: 'otherVariants',
       type: 'array',
       of: [
         {
@@ -82,6 +82,15 @@ export default {
       title: 'Rating',
       name: 'rating',
       type: 'number'
+    },
+    {
+      name: 'status',
+      title: 'Status',
+      type: 'string',
+      options: {
+        list: ['active', 'notActive'],
+        layout: 'dropdown'
+      }
     },
     {
       name: 'internalNotes',
