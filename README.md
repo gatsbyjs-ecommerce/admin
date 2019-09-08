@@ -1,11 +1,39 @@
-# Sanity Ecommerce Content Studio
+# GatsbyJs Ecommerce Admin Panel
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+Admin Panel built using Sanity.io
 
-Now you can do the following things:
+[Live Demo](https://gatsbyjs-ecommerce.sanity.studio/)
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- Check out the example frontend: [Vue/Nuxt.js](https://github.com/sanity-io/example-ecommerce-snipcart-vue)
-- [Read the blog post about this template](https://www.sanity.io/blog/e-commerce-vue-nuxt-snipcart?uutm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+## To use
+
+- Fork or download this repository
+- Ready!
+
+## Setup
+
+Run:
+
+```
+yarn install
+```
+
+To load some dummy data:
+
+```
+yarn import
+```
+
+## Development
+
+To start development server
+
+```
+yarn start
+```
+
+## Deployment
+
+```
+yarn deploy
+yarn deploy-graphql
+```
