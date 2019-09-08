@@ -24,6 +24,11 @@ export default {
       type: 'string'
     },
     {
+      title: 'Country',
+      name: 'country',
+      type: 'string'
+    },
+    {
       title: 'Postcode',
       name: 'postcode',
       type: 'string'

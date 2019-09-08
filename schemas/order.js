@@ -28,7 +28,7 @@ export default {
     },
     {
       title: 'Shipping Address',
-      name: 'shippinAddress',
+      name: 'shippingAddress',
       type: 'address'
     },
     {
@@ -60,6 +60,11 @@ export default {
       title: 'Payment ID',
       type: 'string',
       readOnly: true
+    },
+    {
+      name: 'customerNotes',
+      title: 'Customer Notes',
+      type: 'text'
     },
   ]
 }
