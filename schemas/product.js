@@ -16,6 +16,10 @@ export default {
         source: 'title',
         maxLength: 96
       }
+    },{
+      title: 'Is Featured',
+      name: 'isFeatured',
+      type: 'boolean'
     },
     {
       title: 'Variant',

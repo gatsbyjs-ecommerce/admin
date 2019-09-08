@@ -15,6 +15,7 @@ import article from './article'
 import order from './order'
 import customer from './customer'
 import siteSettings from './siteSettings';
+import address from './address';
 
 import localeString from './locale/String'
 import localeText from './locale/Text'
@@ -44,6 +45,7 @@ export default createSchema({
     localeText,
     localeBlockContent,
     localeString,
-    productVariant
+    productVariant,
+    address
   ])
 })

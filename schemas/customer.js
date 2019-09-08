@@ -6,17 +6,20 @@ export default {
     {
       name: 'email',
       title: 'Email',
-      type: 'string'
+      type: 'string',
+      readOnly: true
     },
     {
       name: 'password',
       title: 'Password',
-      type: 'string'
+      type: 'string',
+      hidden: true
     },
     {
       name: 'resetPasswordToken',
       title: 'Reset Password Token',
-      type: 'string'
+      type: 'string',
+      hidden: true
     },
     {
       name: 'status',
@@ -26,6 +29,16 @@ export default {
         list: ['active', 'notActive', 'banned'],
         layout: 'dropdown'
       }
+    },
+    {
+      name: 'fullName',
+      title: 'Full Name',
+      type: 'string'
+    },
+    {
+      title: 'Address',
+      name: 'address',
+      type: 'address'
     },
   ]
 }

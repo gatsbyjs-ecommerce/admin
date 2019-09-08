@@ -6,7 +6,8 @@ export default {
     {
       name: 'orderId',
       title: 'Order ID',
-      type: 'string'
+      type: 'string',
+      readOnly: true
     },
     {
       name: 'products',
@@ -18,6 +19,17 @@ export default {
           to: {type: 'product'}
         }
       ]
+    },
+    {
+      title: 'Customer',
+      name: 'customer',
+      type: 'reference',
+      to: [{type: 'customer'}]
+    },
+    {
+      title: 'Shipping Address',
+      name: 'shippinAddress',
+      type: 'address'
     },
     {
       name: 'status',
@@ -46,7 +58,8 @@ export default {
     {
       name: 'paymentId',
       title: 'Payment ID',
-      type: 'string'
+      type: 'string',
+      readOnly: true
     },
   ]
 }
