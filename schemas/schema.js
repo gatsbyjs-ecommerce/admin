@@ -11,6 +11,7 @@ import vendor from './vendor'
 import productVariant from './productVariant'
 import coupon from './coupon'
 import page from './page'
+import article from './article'
 import order from './order'
 import customer from './customer'
 import siteSettings from './siteSettings';
@@ -29,13 +30,14 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     product,
-    vendor,
-    category,
-    coupon,
     page,
+    article,
+    coupon,
     order,
     customer,
     siteSettings,
+    vendor,
+    category,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
