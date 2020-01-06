@@ -1,4 +1,4 @@
-# GatsbyJs Ecommerce Admin Panel
+# 6in.co Ecommerce Admin Panel
 
 Admin Panel built using Sanity.io
 
