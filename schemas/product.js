@@ -6,7 +6,7 @@ export default {
     {
       name: 'title',
       title: 'Title',
-      type: 'string'
+      type: 'string',
     },
     {
       name: 'slug',
@@ -14,17 +14,18 @@ export default {
       type: 'slug',
       options: {
         source: 'title',
-        maxLength: 96
-      }
-    },{
+        maxLength: 96,
+      },
+    },
+    {
       title: 'Is Featured',
       name: 'isFeatured',
-      type: 'boolean'
+      type: 'boolean',
     },
     {
       title: 'Variant',
       name: 'variant',
-      type: 'productVariant'
+      type: 'productVariant',
     },
     {
       title: 'Other Variants',
@@ -33,9 +34,9 @@ export default {
       of: [
         {
           title: 'Variant',
-          type: 'productVariant'
-        }
-      ]
+          type: 'productVariant',
+        },
+      ],
     },
     {
       title: 'Tags',
@@ -43,23 +44,29 @@ export default {
       type: 'array',
       of: [
         {
-          type: 'string'
-        }
+          type: 'string',
+        },
       ],
       options: {
-        layout: 'tags'
-      }
+        layout: 'tags',
+      },
     },
     {
       name: 'vendor',
       title: 'Vendor',
       type: 'reference',
-      to: {type: 'vendor'}
+      to: { type: 'vendor' },
     },
     {
       name: 'blurb',
       title: 'Blurb',
-      type: 'localeString'
+      type: 'localeString',
+    },
+    {
+      name: 'device',
+      title: 'Device',
+      type: 'reference',
+      to: { type: 'device' },
     },
     {
       name: 'categories',
@@ -68,24 +75,24 @@ export default {
       of: [
         {
           type: 'reference',
-          to: {type: 'category'}
-        }
-      ]
+          to: { type: 'category' },
+        },
+      ],
     },
     {
       name: 'body',
       title: 'Body',
-      type: 'localeBlockContent'
+      type: 'localeBlockContent',
     },
     {
       title: 'Listing Order',
       name: 'listingOrder',
-      type: 'number'
+      type: 'number',
     },
     {
       title: 'Rating',
       name: 'rating',
-      type: 'number'
+      type: 'number',
     },
     {
       name: 'status',
@@ -93,13 +100,13 @@ export default {
       type: 'string',
       options: {
         list: ['active', 'notActive'],
-        layout: 'dropdown'
-      }
+        layout: 'dropdown',
+      },
     },
     {
       name: 'internalNotes',
       title: 'Internal Notes',
-      type: 'text'
+      type: 'text',
     },
   ],
 
@@ -107,7 +114,7 @@ export default {
     select: {
       title: 'title',
       manufactor: 'manufactor.title',
-      media: 'defaultProductVariant.images[0]'
-    }
-  }
-}
+      media: 'defaultProductVariant.images[0]',
+    },
+  },
+};
