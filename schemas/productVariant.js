@@ -8,15 +8,10 @@ export default {
       name: 'title',
       type: 'string',
     },
-    // {
-    //   title: 'Weight in grams',
-    //   name: 'grams',
-    //   type: 'number',
-    // },
     {
       title: 'Color',
       name: 'color',
-      type: 'string',
+      type: 'color',
     },
     {
       title: 'Price',
@@ -56,10 +51,5 @@ export default {
         },
       ],
     },
-    // {
-    //   title: 'Bar code',
-    //   name: 'barcode',
-    //   type: 'barcode'
-    // }
   ],
 };
