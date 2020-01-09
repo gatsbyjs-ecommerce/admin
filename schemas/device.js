@@ -28,6 +28,12 @@ export default {
       type: 'image',
     },
     {
+      name: 'vendor',
+      title: 'Vendor',
+      type: 'reference',
+      to: { type: 'vendor' },
+    },
+    {
       name: 'status',
       title: 'Status',
       type: 'string',

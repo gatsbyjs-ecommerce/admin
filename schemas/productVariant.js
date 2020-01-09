@@ -6,47 +6,42 @@ export default {
     {
       title: 'Title',
       name: 'title',
-      type: 'string'
+      type: 'string',
     },
-    {
-      title: 'Weight in grams',
-      name: 'grams',
-      type: 'number'
-    },
+    // {
+    //   title: 'Weight in grams',
+    //   name: 'grams',
+    //   type: 'number',
+    // },
     {
       title: 'Color',
       name: 'color',
-      type: 'string'
+      type: 'string',
     },
     {
       title: 'Price',
       name: 'price',
-      type: 'number'
+      type: 'number',
     },
     {
       title: 'Discount Price',
       name: 'discountPrice',
-      type: 'number'
-    },
-    {
-      title: 'Shipping Cost',
-      name: 'shippingCost',
-      type: 'number'
+      type: 'number',
     },
     {
       title: 'SKU',
       name: 'sku',
-      type: 'string'
+      type: 'string',
     },
-    {
-      title: 'Taxable',
-      name: 'taxable',
-      type: 'boolean'
-    },
+    // {
+    //   title: 'Taxable',
+    //   name: 'taxable',
+    //   type: 'boolean'
+    // },
     {
       name: 'featuredImage',
       title: 'Featured Image',
-      type: 'image'
+      type: 'image',
     },
     {
       name: 'images',
@@ -56,15 +51,15 @@ export default {
         {
           type: 'image',
           options: {
-            hotspot: true
-          }
-        }
-      ]
+            hotspot: true,
+          },
+        },
+      ],
     },
-    {
-      title: 'Bar code',
-      name: 'barcode',
-      type: 'barcode'
-    }
-  ]
-}
+    // {
+    //   title: 'Bar code',
+    //   name: 'barcode',
+    //   type: 'barcode'
+    // }
+  ],
+};

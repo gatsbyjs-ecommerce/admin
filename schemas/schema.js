@@ -32,15 +32,15 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     product,
-    page,
-    article,
-    coupon,
+    category,
+    vendor,
+    device,
     order,
     customer,
+    coupon,
+    page,
+    article,
     siteSettings,
-    vendor,
-    category,
-    device,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,

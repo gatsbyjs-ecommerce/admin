@@ -22,13 +22,46 @@ export default {
       name: 'isFeatured',
       type: 'boolean',
     },
+    // {
+    //   title: 'Variant',
+    //   name: 'variant',
+    //   type: 'productVariant',
+    // },
     {
-      title: 'Variant',
-      name: 'variant',
-      type: 'productVariant',
+      name: 'vendor',
+      title: 'Vendor',
+      type: 'reference',
+      to: { type: 'vendor' },
+    },
+    // {
+    //   name: 'blurb',
+    //   title: 'Blurb',
+    //   type: 'localeString',
+    // },
+    {
+      name: 'device',
+      title: 'Devices',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [{ type: 'device' }],
+        },
+      ],
     },
     {
-      title: 'Other Variants',
+      name: 'category',
+      title: 'Category',
+      type: 'reference',
+      to: { type: 'category' },
+    },
+    {
+      name: 'body',
+      title: 'Body',
+      type: 'localeBlockContent',
+    },
+    {
+      title: 'Variants',
       name: 'otherVariants',
       type: 'array',
       of: [
@@ -37,6 +70,30 @@ export default {
           type: 'productVariant',
         },
       ],
+    },
+    {
+      title: 'Shipping Cost',
+      name: 'shippingCost',
+      type: 'number',
+    },
+    {
+      title: 'Rating',
+      name: 'rating',
+      type: 'number',
+    },
+    {
+      title: 'Listing Order',
+      name: 'listingOrder',
+      type: 'number',
+    },
+    {
+      name: 'status',
+      title: 'Status',
+      type: 'string',
+      options: {
+        list: ['active', 'notActive'],
+        layout: 'dropdown',
+      },
     },
     {
       title: 'Tags',
@@ -49,58 +106,6 @@ export default {
       ],
       options: {
         layout: 'tags',
-      },
-    },
-    {
-      name: 'vendor',
-      title: 'Vendor',
-      type: 'reference',
-      to: { type: 'vendor' },
-    },
-    {
-      name: 'blurb',
-      title: 'Blurb',
-      type: 'localeString',
-    },
-    {
-      name: 'device',
-      title: 'Device',
-      type: 'reference',
-      to: { type: 'device' },
-    },
-    {
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          to: { type: 'category' },
-        },
-      ],
-    },
-    {
-      name: 'body',
-      title: 'Body',
-      type: 'localeBlockContent',
-    },
-    {
-      title: 'Listing Order',
-      name: 'listingOrder',
-      type: 'number',
-    },
-    {
-      title: 'Rating',
-      name: 'rating',
-      type: 'number',
-    },
-    {
-      name: 'status',
-      title: 'Status',
-      type: 'string',
-      options: {
-        list: ['active', 'notActive'],
-        layout: 'dropdown',
       },
     },
     {
