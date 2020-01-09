@@ -50,10 +50,15 @@ export default {
       ],
     },
     {
-      name: 'category',
+      name: 'categories',
       title: 'Category',
-      type: 'reference',
-      to: { type: 'category' },
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [{ type: 'category' }],
+        },
+      ],
     },
     {
       name: 'body',
