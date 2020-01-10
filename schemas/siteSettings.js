@@ -88,13 +88,19 @@ export default {
     },
     {
       name: 'productDeliveryInfo',
-      type: 'text',
       title: 'Product Delivery Info',
+      type: 'markdown',
+      options: {
+        minRows: 20,
+      },
     },
     {
       name: 'productShippingReturns',
-      type: 'text',
       title: 'Product Shipping Returns',
+      type: 'markdown',
+      options: {
+        minRows: 20,
+      },
     },
   ],
 };
