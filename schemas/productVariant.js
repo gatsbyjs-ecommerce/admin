@@ -24,15 +24,20 @@ export default {
       type: 'number',
     },
     {
+      title: 'Our Price',
+      name: 'ourPrice',
+      type: 'number',
+    },
+    {
       title: 'SKU',
       name: 'sku',
       type: 'string',
     },
-    // {
-    //   title: 'Taxable',
-    //   name: 'taxable',
-    //   type: 'boolean'
-    // },
+    {
+      title: 'Quantity',
+      name: 'quantity',
+      type: 'number',
+    },
     {
       name: 'featuredImage',
       title: 'Featured Image',
