@@ -27,7 +27,8 @@
     "prop-types": "^15.7",
     "react": "^16.12",
     "react-barcode": "^1.4.0",
-    "react-dom": "^16.12"
+    "react-dom": "^16.12",
+    "sanity-plugin-markdown": "^1.0.1"
   },
   "devDependencies": {}
 }

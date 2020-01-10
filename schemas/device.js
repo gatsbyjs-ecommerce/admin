@@ -42,5 +42,10 @@ export default {
         layout: 'dropdown',
       },
     },
+    {
+      title: 'Listing Order',
+      name: 'listingOrder',
+      type: 'number',
+    },
   ],
 };
