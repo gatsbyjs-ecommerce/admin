@@ -17,6 +17,7 @@ import customer from './customer';
 import siteSettings from './siteSettings';
 import address from './address';
 import device from './device';
+import review from './review';
 
 import localeString from './locale/String';
 import localeText from './locale/Text';
@@ -40,6 +41,7 @@ export default createSchema({
     coupon,
     page,
     article,
+    review,
     siteSettings,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
