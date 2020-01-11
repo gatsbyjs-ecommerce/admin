@@ -7,7 +7,7 @@ export default {
       name: 'orderId',
       title: 'Order ID',
       type: 'string',
-      readOnly: true
+      readOnly: true,
     },
     {
       name: 'products',
@@ -16,20 +16,26 @@ export default {
       of: [
         {
           type: 'reference',
-          to: {type: 'product'}
-        }
-      ]
+          to: { type: 'product' },
+        },
+      ],
+    },
+    {
+      name: 'skus',
+      title: 'SKUs',
+      type: 'array',
+      of: [{ type: 'string' }],
     },
     {
       title: 'Customer',
       name: 'customer',
       type: 'reference',
-      to: [{type: 'customer'}]
+      to: [{ type: 'customer' }],
     },
     {
       title: 'Shipping Address',
       name: 'shippingAddress',
-      type: 'address'
+      type: 'address',
     },
     {
       name: 'status',
@@ -37,8 +43,8 @@ export default {
       type: 'string',
       options: {
         list: ['pending', 'paid', 'failed'],
-        layout: 'dropdown'
-      }
+        layout: 'dropdown',
+      },
     },
     {
       name: 'subTotal',
@@ -59,12 +65,12 @@ export default {
       name: 'paymentId',
       title: 'Payment ID',
       type: 'string',
-      readOnly: true
+      readOnly: true,
     },
     {
       name: 'customerNotes',
       title: 'Customer Notes',
-      type: 'text'
+      type: 'text',
     },
-  ]
-}
+  ],
+};

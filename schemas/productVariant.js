@@ -30,6 +30,7 @@ export default {
     },
     {
       title: 'SKU',
+      description: 'https://www.zoho.com/in/inventory/sku-generator/',
       name: 'sku',
       type: 'string',
     },
