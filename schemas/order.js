@@ -42,7 +42,7 @@ export default {
       title: 'Status',
       type: 'string',
       options: {
-        list: ['pending', 'paid', 'failed'],
+        list: ['pending', 'paid', 'failed', 'shipped', 'delivered'],
         layout: 'dropdown',
       },
     },
@@ -73,8 +73,13 @@ export default {
       readOnly: true,
     },
     {
-      name: 'customerNotes',
-      title: 'Customer Notes',
+      name: 'deliveryNotes',
+      title: 'Delivery Notes',
+      type: 'text',
+    },
+    {
+      name: 'internalNotes',
+      title: 'Internal Notes',
       type: 'text',
     },
   ],
