@@ -47,6 +47,16 @@ export default {
       type: 'image',
     },
     {
+      title: 'Home Hero Text Color',
+      name: 'homeHeroTextColor',
+      type: 'color',
+    },
+    {
+      title: 'Home Hero Link',
+      name: 'homeHeroLink',
+      type: 'string',
+    },
+    {
       name: 'homeAboutUs',
       type: 'text',
       title: 'Home About Us',
