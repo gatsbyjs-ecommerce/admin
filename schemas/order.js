@@ -47,8 +47,13 @@ export default {
       },
     },
     {
-      name: 'subTotal',
-      title: 'Sub Total',
+      name: 'discount',
+      title: 'Discount',
+      type: 'number',
+    },
+    {
+      name: 'shipping',
+      title: 'Shipping',
       type: 'number',
     },
     {
