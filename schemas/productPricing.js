@@ -18,7 +18,7 @@ export default {
       title: 'Country',
       type: 'string',
       options: {
-        list: ['India', 'United Kingdom', 'Canada'],
+        list: ['India', 'United Kingdom', 'United States of America'],
         layout: 'dropdown',
       },
     },
