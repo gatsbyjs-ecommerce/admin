@@ -10,6 +10,7 @@ import product from './product';
 import vendor from './vendor';
 import productVariant from './productVariant';
 import productPricing from './productPricing';
+import productShipping from './productShipping';
 import coupon from './coupon';
 import page from './page';
 import article from './article';
@@ -52,6 +53,7 @@ export default createSchema({
     localeString,
     productVariant,
     productPricing,
+    productShipping,
     address,
   ]),
 });

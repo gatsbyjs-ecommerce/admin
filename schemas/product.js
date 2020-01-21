@@ -22,22 +22,12 @@ export default {
       name: 'isFeatured',
       type: 'boolean',
     },
-    // {
-    //   title: 'Variant',
-    //   name: 'variant',
-    //   type: 'productVariant',
-    // },
     {
       name: 'vendor',
       title: 'Vendor',
       type: 'reference',
       to: { type: 'vendor' },
     },
-    // {
-    //   name: 'blurb',
-    //   title: 'Blurb',
-    //   type: 'localeString',
-    // },
     {
       name: 'device',
       title: 'Devices',
@@ -79,7 +69,13 @@ export default {
     {
       title: 'Shipping Cost',
       name: 'shippingCost',
-      type: 'number',
+      type: 'array',
+      of: [
+        {
+          title: 'Shipping Cost',
+          type: 'productShipping',
+        },
+      ],
     },
     {
       title: 'Rating',
