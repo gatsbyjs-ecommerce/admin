@@ -1,5 +1,5 @@
 export default {
-  title: 'Product variant',
+  title: 'Product Variant',
   name: 'productVariant',
   type: 'object',
   fields: [
@@ -14,19 +14,15 @@ export default {
       type: 'color',
     },
     {
-      title: 'Price',
-      name: 'price',
-      type: 'number',
-    },
-    {
-      title: 'Discount Price',
-      name: 'discountPrice',
-      type: 'number',
-    },
-    {
-      title: 'Our Price',
-      name: 'ourPrice',
-      type: 'number',
+      title: 'Pricing',
+      name: 'pricing',
+      type: 'array',
+      of: [
+        {
+          title: 'Pricing',
+          type: 'productPricing',
+        },
+      ],
     },
     {
       title: 'SKU',

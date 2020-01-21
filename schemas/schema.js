@@ -9,6 +9,7 @@ import category from './category';
 import product from './product';
 import vendor from './vendor';
 import productVariant from './productVariant';
+import productPricing from './productPricing';
 import coupon from './coupon';
 import page from './page';
 import article from './article';
@@ -50,6 +51,7 @@ export default createSchema({
     localeBlockContent,
     localeString,
     productVariant,
+    productPricing,
     address,
   ]),
 });
