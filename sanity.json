@@ -15,12 +15,23 @@
     "@sanity/desk-tool",
     "barcode-input",
     "@sanity/color-input",
-    "markdown"
+    "markdown",
+    "seo-tools",
+    "content-model-graph",
+    "@sanity/dashboard",
+    "dashboard-widget-netlify",
+    "dashboard-widget-notes",
+    "google-analytics",
+    "media"
   ],
   "parts": [
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema.js"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "./dashboardConfig.js"
     }
   ]
 }

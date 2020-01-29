@@ -17,18 +17,24 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^0.147.6",
+    "@sanity/base": "^0.147.8",
     "@sanity/color-input": "^0.147.0",
-    "@sanity/components": "^0.147.6",
-    "@sanity/core": "^0.147.6",
-    "@sanity/default-layout": "^0.147.6",
+    "@sanity/components": "^0.147.9",
+    "@sanity/core": "^0.147.9",
+    "@sanity/dashboard": "^0.147.8",
+    "@sanity/default-layout": "^0.147.9",
     "@sanity/default-login": "^0.147.0",
-    "@sanity/desk-tool": "^0.147.7",
+    "@sanity/desk-tool": "^0.147.9",
     "prop-types": "^15.7",
     "react": "^16.12",
     "react-barcode": "^1.4.0",
     "react-dom": "^16.12",
-    "sanity-plugin-markdown": "^1.0.1"
+    "sanity-plugin-content-model-graph": "^1.1.0",
+    "sanity-plugin-dashboard-widget-netlify": "^1.0.1",
+    "sanity-plugin-dashboard-widget-notes": "^0.3.2",
+    "sanity-plugin-google-analytics": "^0.2.6",
+    "sanity-plugin-markdown": "^1.0.1",
+    "sanity-plugin-media": "^0.2.10"
   },
   "devDependencies": {}
 }
