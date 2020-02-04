@@ -27,6 +27,7 @@
     "@sanity/default-layout": "^0.147.9",
     "@sanity/default-login": "^0.147.0",
     "@sanity/desk-tool": "^0.147.9",
+    "http-server": "^0.12.1",
     "prop-types": "^15.7",
     "react": "^16.12",
     "react-barcode": "^1.4.0",
@@ -39,7 +40,6 @@
     "sanity-plugin-seo-tools": "^1.0.6"
   },
   "devDependencies": {
-    "@sanity/cli": "^0.147.8",
-    "http-server": "^0.12.1"
+    "@sanity/cli": "^0.147.8"
   }
 }
