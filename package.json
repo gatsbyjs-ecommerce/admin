@@ -37,5 +37,7 @@
     "sanity-plugin-media": "^0.2.10",
     "sanity-plugin-seo-tools": "^1.0.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@sanity/cli": "^0.147.8"
+  }
 }
