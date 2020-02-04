@@ -11,6 +11,7 @@
     "test": "sanity check",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy",
+    "now-dev": "http-server -s -p $PORT",
     "now-build": "sanity build",
     "import": "sanity dataset import production.tar.gz production"
   },
@@ -38,6 +39,7 @@
     "sanity-plugin-seo-tools": "^1.0.6"
   },
   "devDependencies": {
-    "@sanity/cli": "^0.147.8"
+    "@sanity/cli": "^0.147.8",
+    "http-server": "^0.12.1"
   }
 }
