@@ -1,5 +1,5 @@
 {
-  "name": "6in.co-admin",
+  "name": "gatsby-e-commerce-admin",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -11,7 +11,7 @@
     "test": "sanity check",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy",
-    "import": "sanity dataset import dataset.tar.gz production"
+    "import": "sanity dataset import production.tar.gz production"
   },
   "keywords": [
     "sanity"
@@ -32,9 +32,9 @@
     "sanity-plugin-content-model-graph": "^1.1.0",
     "sanity-plugin-dashboard-widget-netlify": "^1.0.1",
     "sanity-plugin-dashboard-widget-notes": "^0.3.2",
-    "sanity-plugin-google-analytics": "^0.2.6",
     "sanity-plugin-markdown": "^1.0.1",
-    "sanity-plugin-media": "^0.2.10"
+    "sanity-plugin-media": "^0.2.10",
+    "sanity-plugin-seo-tools": "^1.0.6"
   },
   "devDependencies": {}
 }

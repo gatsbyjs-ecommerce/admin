@@ -1,11 +1,11 @@
 {
   "root": true,
   "api": {
-    "projectId": "1noazxoy",
+    "projectId": "2jkk6tlv",
     "dataset": "production"
   },
   "project": {
-    "name": "6in"
+    "name": "GatsbyJs Ecommerce"
   },
   "plugins": [
     "@sanity/base",
@@ -21,7 +21,6 @@
     "@sanity/dashboard",
     "dashboard-widget-netlify",
     "dashboard-widget-notes",
-    "google-analytics",
     "media"
   ],
   "parts": [
