@@ -29,17 +29,6 @@ export default {
       to: { type: 'vendor' },
     },
     {
-      name: 'device',
-      title: 'Devices',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          to: [{ type: 'device' }],
-        },
-      ],
-    },
-    {
       name: 'categories',
       title: 'Category',
       type: 'array',

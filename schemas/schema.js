@@ -18,7 +18,6 @@ import order from './order';
 import customer from './customer';
 import siteSettings from './siteSettings';
 import address from './address';
-import device from './device';
 import review from './review';
 
 import localeString from './locale/String';
@@ -37,7 +36,6 @@ export default createSchema({
     product,
     category,
     vendor,
-    device,
     order,
     customer,
     coupon,

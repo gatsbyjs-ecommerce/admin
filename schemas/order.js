@@ -27,12 +27,6 @@ export default {
       of: [{ type: 'string' }],
     },
     {
-      name: 'devices',
-      title: 'Devices',
-      type: 'array',
-      of: [{ type: 'string' }],
-    },
-    {
       title: 'Customer',
       name: 'customer',
       type: 'reference',
