@@ -11,6 +11,7 @@
     "test": "sanity check",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy",
+    "now-build": "sanity build",
     "import": "sanity dataset import production.tar.gz production"
   },
   "keywords": [
