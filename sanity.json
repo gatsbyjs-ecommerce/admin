@@ -5,7 +5,7 @@
     "dataset": "production"
   },
   "project": {
-    "name": "--siteName--"
+    "name": "zeiq commerce"
   },
   "plugins": [
     "@sanity/base",
@@ -21,7 +21,9 @@
     "@sanity/dashboard",
     "dashboard-widget-netlify",
     "dashboard-widget-notes",
-    "media"
+    "media",
+    "asset-source-unsplash",
+    "@sanity/vision"
   ],
   "parts": [
     {
